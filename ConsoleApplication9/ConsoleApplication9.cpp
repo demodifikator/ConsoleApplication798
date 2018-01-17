@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include "ConsoleApplication9.h"
 using namespace std;
-struct EmployeeData
+struct EmployeeData     
 {
 	int BirthYear;
 	float Money;
