@@ -10,7 +10,7 @@ struct EmployeeData
 	float Money;
 	char *Name = new char[20], *Surname = new char[30];
 
-};
+};    
 void CollectData(EmployeeData &ED);
 void TextRecord(EmployeeData &ED, FILE*fp);
 int main()
